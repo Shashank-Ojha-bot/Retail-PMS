@@ -1,0 +1,29 @@
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (1,'Google',10,1);
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (2,'Acer',20,2);
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (3,'Philips',30,3.5);
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (4,'Logitech',40,4.5);
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (5,'Amazon',50,5);
+insert into vendor (vendor_id,vendor_name,delivery_charge,vendor_rating) values (6,'MI',60,4.5);
+
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (1,1,'2021-09-30',5,1);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (2,1,'2021-09-30',5,2);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (3,2,'2021-09-30',5,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (4,3,'2021-09-30',5,6);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (5,3,'2021-09-30',0,4);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (6,4,'2021-09-30',5,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (7,4,'2021-09-30',0,1);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (8,5,'2021-09-30',5,2);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (9,6,'2021-09-30',0,4);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (10,7,'2021-09-30',1,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (11,8,'2021-09-30',1,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (12,7,'2021-09-30',1,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (13,8,'2021-09-30',0,2);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (14,9,'2021-09-30',1,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (15,9,'2021-10-1',7,1);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (16,10,'2021-09-30',3,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (17,10,'2021-09-30',7,1);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (18,11,'2021-09-30',2,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (19,11,'2021-09-30',7,1);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (20,12,'2021-09-30',0,5);
+insert into vendor_stock (id,product_id,replinshment_date,stock_in_hand,vendor_id) values (21,12,'2021-09-30',0,1);
+

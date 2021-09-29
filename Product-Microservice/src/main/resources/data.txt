@@ -1,0 +1,15 @@
+/*
+insert into product (price, name, description, image_name, rating) values (1999.99,'Product 1','this is product 1','image1',4.5);
+insert into product (price, name, description, image_name, rating) values (2999.99,'Product 2','this is product 2','image2',4.5);
+insert into product (price, name, description, image_name, rating) values (3999.99,'Product 3','this is product 3','image3',4.5);
+
+*/
+
+create table product(id int primary key,
+					price number,
+					name varchar(50),
+					description varchar(50),
+					image_name varchar(50),
+					rating number);
+					
+insert into product (id,price, name, description, image_name, rating) values (1,4999.99,'Product 4','this is product 4','image4',4.5);

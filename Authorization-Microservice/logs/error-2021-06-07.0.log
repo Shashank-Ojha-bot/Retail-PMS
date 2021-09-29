@@ -1,0 +1,4 @@
+2021-06-07_12-54-09 [http-nio-8400-exec-1] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2021-06-07_12-54-09 [http-nio-8400-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2021-06-07_12-54-09 [http-nio-8400-exec-9] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
+2021-06-07_12-54-09 [http-nio-8400-exec-3] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired
