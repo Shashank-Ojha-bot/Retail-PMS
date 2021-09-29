@@ -97,7 +97,7 @@
 						</form>
 						</div>
 						<br>
-						<button class="btn btn-warning addcart" id="buttoncart${product.id}" onClick="Cart(${product.id})">Add To Cart</button>
+						<button class="btn btn-warning addcart" style="background:#ffffbf" id="buttoncart${product.id}" onClick="Cart(${product.id})">Add To Cart</button>
 							<br>
 							<br>
 							
@@ -112,7 +112,7 @@
 									<input type="submit" class="btn btn-warning" value="Add" style="margin-left: 35%"/>
 						</form>
 						</div>
-						<button class="btn btn-warning addcart" id="buttonwish${product.id}" onClick="WishList(${product.id})">Add To WishList</button>
+						<button class="btn btn-warning addcart" style="background:#ffffbf" id="buttonwish${product.id}" onClick="WishList(${product.id})">Add To WishList</button>
 							
 						<!-- 	<button class="btn btn-warning addcart" id="" data-toggle="modal"
 							data-target="#myModal" onClick="configureProductId(${product.id})">Add
